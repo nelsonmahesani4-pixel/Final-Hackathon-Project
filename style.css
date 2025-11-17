@@ -46,7 +46,6 @@
         text-align: center !important;
     }
 
-    /* Center HOW IT WORK boxes */
     section.text-center .row > div {
         justify-content: center !important;
         text-align: center !important;
@@ -54,7 +53,6 @@
         align-items: center !important;
     }
 
-    /* Center popular deals cards */
     .col-md-3 {
         margin-left: auto !important;
         margin-right: auto !important;
