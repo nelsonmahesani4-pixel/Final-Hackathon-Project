@@ -3,7 +3,74 @@
     --bg-primary:rgb(151, 151, 231);
 }
 .nav-item{
+    font-size:20px;body{
+    overflow-x: hidden;
+}
+:root{
+    --bg-primary:rgb(151, 151, 231);
+}
+.nav-item{
     font-size:20px;
+    font-weight: 700;
+    font-family: Poppins;
+}
+.Frame17{
+    width:70%;
+    justify-content:center;
+    margin:auto;
+}
+.Search-button{
+    width:150px;
+}
+.container{
+    box-shadow: 0px 6px 12px 0px #135EAC1F;
+    background-color: #ACACAC !important;
+
+}
+
+@media (max-width: 767px) {
+    .navbar-nav {
+        justify-content: center !important;
+    }   
+    .navbar .d-flex.gap-3 {
+        justify-content: center !important;
+        margin-top: 10px;
+    }
+    .hero-text, .hero-image, section .row {
+        justify-content: center !important;
+        text-align: center !important;
+    }
+
+    .col-md-4 {
+        justify-content: center !important;
+        text-align: center !important;
+    }
+
+    /* Center HOW IT WORK boxes */
+    section.text-center .row > div {
+        justify-content: center !important;
+        text-align: center !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+    /* Center popular deals cards */
+    .col-md-3 {
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    .col-lg-6 {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        text-align: center !important;
+    }
+
+    footer .row {
+        justify-content: center !important;
+        text-align: center !important;
+    }
+}
+
     font-weight: 700;
     font-family: Poppins;
 }
