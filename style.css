@@ -1,9 +1,11 @@
-
+body{
+    overflow-x: hidden;
+}
 :root{
     --bg-primary:rgb(151, 151, 231);
 }
 .nav-item{
-    font-size:20px;body{
+    font-size:20px;
     overflow-x: hidden;
 }
 :root{
@@ -14,146 +16,59 @@
     font-weight: 700;
     font-family: Poppins;
 }
-.Frame17{
-    width:70%;
-    justify-content:center;
-    margin:auto;
-}
-.Search-button{
-    width:150px;
-}
 .container{
     box-shadow: 0px 6px 12px 0px #135EAC1F;
-    background-color: #ACACAC !important;
+    background-color: #ACACAC ;
 
 }
 
 @media (max-width: 767px) {
     .navbar-nav {
-        justify-content: center !important;
-    }   
+        justify-content: center ;
+    }  
     .navbar .d-flex.gap-3 {
-        justify-content: center !important;
+        justify-content: center ;
         margin-top: 10px;
     }
     .hero-text, .hero-image, section .row {
-        justify-content: center !important;
-        text-align: center !important;
+        justify-content: center ;
+        text-align: center ;
     }
 
     .col-md-4 {
-        justify-content: center !important;
-        text-align: center !important;
+        justify-content: center ;
+        text-align: center ;
+    }
+    .Audi-container{
+        margin-left: 100px;
     }
 
     section.text-center .row > div {
-        justify-content: center !important;
-        text-align: center !important;
-        flex-direction: column !important;
-        align-items: center !important;
+        justify-content: center ;
+        text-align: center ;
+        flex-direction: column ;
+        align-items: center ;
     }
 
     .col-md-3 {
-        margin-left: auto !important;
-        margin-right: auto !important;
+        margin-left: auto ;
+        margin-right: auto ;
     }
     .col-lg-6 {
-        margin-left: auto !important;
-        margin-right: auto !important;
-        text-align: center !important;
+        margin-left: auto ;
+        margin-right: auto ;
+        text-align: center ;
+        justify-content: center ;
     }
-
-    footer .row {
-        justify-content: center !important;
-        text-align: center !important;
+    .Testimonial {
+        width: 50% ;
     }
 }
 
-    font-weight: 700;
-    font-family: Poppins;
-}
-.Frame17{
-    width:70%;
-    justify-content:center;
-    margin:auto;
-}
 .Search-button{
     width:150px;
 }
-.location-text h1 p{
-     
+.review-section{
     margin-left:10px;
 }
-.pickup-text h1 p{
-     margin-left:10px;
-}
-.return-text h1 p{
-     margin-left:10px;
-}
-.choose-location2{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.book-your-car2{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.pick-up-date2{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.choose-location2 p{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-.book-your-car-text p{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-.pick-up-date2 p{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
 
-.choose-location2 h1{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.book-your-car-text h1{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.pick-up-date2 h1{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.choose-location2 h1{
-margin-top: 10px;
-}
-.choose-location2 p{
-margin-top: 10px;
-}
-.book-your-car-text h1{
-margin-top: 10px;
-}
-.book-your-car-text p{
-margin-top: 10px;
-}
-.pick-up-date2 h1{
-margin-top: 10px;
-}
-.pick-up-date2p{
-margin-top: 10px;
-}
