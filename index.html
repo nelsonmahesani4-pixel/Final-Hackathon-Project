@@ -17,6 +17,7 @@
 </head>
 <body>
 <!-- navbar -->
+ <header class="container-fluid">
 <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm">
   <div class="container">
 
@@ -33,8 +34,6 @@
             data-bs-target="#navMenu">
       <span class="navbar-toggler-icon"></span>
     </button>
-
-    <!-- Menu -->
     <div class="collapse navbar-collapse" id="navMenu">
 
       <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-lg-4 text-center">
@@ -52,6 +51,7 @@
     </div>
   </div>
 </nav>
+</header>
 <!-- navbar-end -->
 <!-- hero-section -->
 <section class="hero-section py-5  container-fluid">
@@ -66,12 +66,14 @@
           Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
           Laborum amet cumque ducimus assumenda.
         </p>
-        <div class=" ms-5 gap-3">
+        <div class="d-flex ms-5 gap-3">
           <img src="./images/image 2_edited.png" width="120">
-          <img src="./images/image 3_edited.png" width="120">
+          <div class="ms-2">
+            <img src="./images/image 3_edited.png" width="120">
+          </div>
         </div>
       </div>
-      <div class="col-lg-6 text-center">
+      <div class="col-lg-6 text-center mt-3">
         <img src="./images/car 2 1_edited.png" class="img-fluid">
       </div>
 
@@ -80,7 +82,7 @@
   <div class="main-container ">
     <div class="hero-div3 row text-center ms-5">
 
-      <div class="col-md-4 d-flex justify-content-center border-right">
+      <div class="col-md-4 d-flex justify-content-center">
         <div class="d-flex  align-items-center ">
           <img src="./icon/location_edited.png">
           <div>
@@ -90,7 +92,7 @@
         </div>
       </div>
 
-      <div class="col-md-4 d-flex justify-content-center">
+      <div class="col-md-4 d-flex justify-content-center mt-3">
         <div class="d-flex gap-3 align-items-center">
           <img src="./icon/calendar_edited.png">
           <div>
@@ -100,7 +102,7 @@
         </div>
       </div>
 
-      <div class="col-md-4 d-flex justify-content-center">
+      <div class="col-md-4 d-flex justify-content-center mt-3">
         <div class="d-flex gap-3 align-items-center">
           <img src="./icon/calendar_edited.png">
           <div>
@@ -183,10 +185,25 @@
         <h2 class="fw-bold">We offer the best experience with our rental deals</h2>
 
         <ul class="mt-4 list-unstyled">
-          <li class="mb-3"><strong><img src="./icon/Frame 35 (1)_edited.png" alt="">Best price guaranteed</strong><br>We will refund if you find a lower price.</li>
-          <li class="mb-3"><strong><img src="./icon/🦆 icon _car_ (6)_edited.png" alt="">Experienced drivers</strong><br>We have professional drivers available.</li>
-          <li class="mb-3"><strong><img src="./icon/🦆 icon _car_ (7)_edited.png" alt="">24 hour delivery</strong><br>Book anytime, get car delivered.</li>
-          <li><strong><img src="./icon/🦆 icon _car_ (8)_edited.png" alt="">24/7 support</strong><br>We are always available for help.</li>
+          <div class="d-flex">
+            <li class="mb-3"><img src="./icon/Frame 35 (1)_edited.png" alt="">
+            <strong><p class="ms-3 d-inline-block mt-3">Best price guaranteed
+          </strong><br>We will refund if you find a lower price.</p></li>
+          </div>
+          <div class="d-flex">
+            <li class="mb-3"><img src="./icon/🦆 icon _car_ (6)_edited.png" alt="">
+            <strong><p class="ms-3 d-inline-block">Experienced drivers
+          </strong><br>We have professional drivers available.</p></li>
+          </div>
+          <div class="d-flex">
+            <li class="mb-3"><img src="./icon/🦆 icon _car_ (7)_edited.png" alt="">
+            <strong><p class="ms-3 d-inline-block">24 hour delivery
+          </strong><br>Book anytime, get car delivered.</p></li>
+          </div>
+         <div class="d-flex">
+           <li><img src="./icon/🦆 icon _car_ (8)_edited.png" alt="">
+            <strong><p class="ms-3 d-inline-block">24/7 support</strong><br>We are always available for help.</p></li>
+         </div>
         </ul>
       </div>
 
@@ -228,7 +245,7 @@
                                 <i class="fa fas fa-fan feature-icon"></i> Air Conditioning
                             </div>
                             <div class="col-6 feature-item highlighted mb-2">
-                                <i class="fa fas fa-car feature-icon"></i> 4 Doors
+                                4 Doors
                             </div>
                         </div>
 
@@ -238,7 +255,7 @@
                                 <span class="price-value position-relative"style="left:120px;" >$1,800 /day</span>
                             </div>
                             <div>
-                                <a href="#" class="btn btn-primary fw-bold p-2" style="width: 200px; ">Rent Now →</a>
+                                <a href="#" class="btn btn-primary fw-bold p-2 position-relative" style="width: 100%; top:20px;">Rent Now →</a>
                             </div>
                         </div>
                     </div>
@@ -267,7 +284,7 @@
                                 <i class="fa fas fa-fan feature-icon"></i> Air Conditioning
                             </div>
                             <div class="col-6 feature-item mb-2">
-                                <i class="fa fas fa-car feature-icon"></i> 2 Doors
+                                 2 Doors
                             </div>
                         </div>
                         <div class=" justify-content-between align-items-end mb-3">
@@ -276,7 +293,7 @@
                                 <span class="price-value position-relative"style="left:120px;">$2,100/day</span>
                             </div>
                             <div>
-                                <a href="#" class="btn btn-primary fw-bold" style="width: 200px;">Rent Now →</a>
+                                <a href="#" class="btn btn-primary fw-bold position-relative" style="width: 100%; top:20px;">Rent Now →</a>
                             </div>
                         </div>
                     </div>
@@ -315,7 +332,7 @@
                                 <span class="price-value position-relative"style="left:120px;">$1,600/day</span>
                             </div>
                             <div>
-                                <a href="#" class="btn btn-primary fw-bold" style="width: 200px;">Rent Now →</a>
+                                <a href="#" class="btn btn-primary fw-bold position-relative" style="width: 100%; top:20px;">Rent Now →</a>
                             </div>
                         </div>
                     </div>
@@ -354,7 +371,7 @@
                                 <span class="price-value position-relative"style="left:120px;">$2,300/day</span>
                             </div>
                             <div>
-                                <a href="#" class="btn btn-primary fw-bold" style="width: 200px;">Rent Now →</a>
+                                <a href="#" class="btn btn-primary fw-bold position-relative" style="width: 100%; top:20px;">Rent Now →</a>
                             </div>
                         </div>
                     </div>
@@ -385,7 +402,7 @@
         <p>From New York, US</p>
     </div>
     </div>
-    <div class="ms-5 "><img src="./images/Rectangle 8 (1)_edited.png" alt=""></div>
+    <div class="ms-5 mt-3"><img src="./images/Rectangle 8 (1)_edited.png" alt=""></div>
 </div>
     </section>
 <!-- review-section-end -->

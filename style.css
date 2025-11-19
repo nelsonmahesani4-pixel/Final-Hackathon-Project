@@ -26,6 +26,9 @@ body{
     .Rent-section,.card-section{
         margin:auto;
     }
+    .navbar{
+        width:1000px;
+    }
     
 }
 
